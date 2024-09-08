@@ -7,17 +7,17 @@ document.getElementById('resumeForm')?.addEventListener('submit', function(event
     const nameElement = document.getElementById('name') as HTMLInputElement;
     const emailElement = document.getElementById('email') as HTMLInputElement;
     const phoneElement = document.getElementById('phone') as HTMLInputElement;
-    const eduationElement = document.getElementById('eduation') as HTMLInputElement;
+    const educationElement = document.getElementById('education') as HTMLInputElement;
     const experienceElement = document.getElementById('experience') as HTMLInputElement;
     const skillsElement = document.getElementById('skills') as HTMLInputElement;
 
 
-    if (nameElement && emailElement && phoneElement && eduationElement && skillsElement) {
+    if (nameElement && emailElement && phoneElement && educationElement && skillsElement) {
 
         const name = nameElement.value;
         const email = emailElement.value;
         const phone = phoneElement.value;
-        const eduation = eduationElement.value;
+        const education = educationElement.value;
         const experience = experienceElement.value;
         const skills = skillsElement.value;
 
@@ -29,8 +29,8 @@ document.getElementById('resumeForm')?.addEventListener('submit', function(event
     <p><strong>Email:</strong> ${email} </p>
     <p><strong>phone Number:</strong> ${phone} </p>
 
-    <h3>Eduaction</h3>
-    <p>${eduation}</p>
+    <h3>Education</h3>
+    <p>${education}</p>
 
      <h3>Experience</h3>
       <p>${experience}</p>
